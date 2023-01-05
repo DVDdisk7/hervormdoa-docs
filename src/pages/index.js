@@ -8,9 +8,10 @@ import styles from './index.module.css';
 import Hero from '../components/Hero/index.js';
 
 export default function Home() {
-setTimeout(() => {
+if (typeof window !== undefined) {setTimeout(() => {
   window.location.replace('./docs/intro');
-}, 4000);
+}, 2000);};
+
 return(
   <layout style={{margin: 'auto'}}>
     <img id="kerk" style={{height: '250px', width: '370px', 'background-color': 'white', padding: '30px'}} src='./img/draw-kerk.png'></img>
