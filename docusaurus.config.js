@@ -126,6 +126,32 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
+    plugins: [
+      [
+        '@docusaurus/plugin-pwa',
+        {
+          debug: true,
+          offlineModeActivationStrategies: [
+            'appInstalled',
+            'standalone',
+            'queryString',
+          ],
+          pwaHead: [
+            {
+              tagName: 'link',
+              rel: 'icon',
+              href: 'img/logo.webp',
+            },
+            {
+              tagName: 'link',
+              rel: 'manifest',
+              href: 'manifest.json',
+            },
+          ],
+        },
+      ],
+    ],
 };
 
 module.exports = config;
