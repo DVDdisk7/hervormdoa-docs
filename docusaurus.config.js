@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Hervormd Oud-Alblas',
   tagline: 'Technische documentatie',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://hervormdoa.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
