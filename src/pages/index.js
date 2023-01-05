@@ -3,39 +3,29 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
+import Hero from '../components/Hero/index.js';
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+setTimeout(() => {
+  window.location.replace('./docs/intro');
+}, 4000);
+return(
+  <layout style={{margin: 'auto'}}>
+    <img id="kerk" style={{height: '250px', width: '370px', 'background-color': 'white', padding: '30px'}} src='./img/draw-kerk.png'></img>
+    <h1 style={{'text-align': 'center', color: '#E6A31E', 'margin-top': '20px'}}>Aan het laden...</h1> 
+  </layout>
+);
+
+  /*const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
+      title={`Start`}
+      description="Technische documentatie voor Hervormd Oud-Alblas">
+      <Hero />
       <main>
-        <HomepageFeatures />
       </main>
     </Layout>
-  );
+  ); */
 }

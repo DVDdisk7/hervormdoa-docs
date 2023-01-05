@@ -1,0 +1,18 @@
+---
+sidebar_position: 5
+---
+
+# Uitlegvideo
+
+## In- en uitschakelen van de versterker
+Er is op dit moment nog geen uitlegvideo beschikbaar voor dit onderwerp :(
+
+## Bediening
+Er is op dit moment nog geen uitlegvideo beschikbaar voor dit onderwerp :(
+
+## Microfoons
+Er is op dit moment nog geen uitlegvideo beschikbaar voor dit onderwerp :(
+
+## Uitzenden
+Er is op dit moment nog geen uitlegvideo beschikbaar voor dit onderwerp :(
+

@@ -1,0 +1,17 @@
+{
+    "theme_color" : "#E6A31E",
+    "background_color" : "#ffffff",
+    "display" : "standalone",
+    "scope" : "/",
+    "start_url" : "/",
+    "name" : "Handleidingen - Hervormd Oud-Alblas",
+    "short_name" : "Handleidingen - Hervormd Oud-Alblas",
+    "description" : "Handleidingen app voor Hervormd Oud-Alblas",
+    "icons": [
+        {
+          "src": "/img/logo.webp",
+          "type": "image/webp",
+          "sizes": "512x512"
+        }
+      ]
+}
