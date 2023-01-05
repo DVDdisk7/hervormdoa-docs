@@ -1,4 +1,5 @@
-import React from 'react';
+
+import React, { useEffect } from "react";
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -8,9 +9,9 @@ import styles from './index.module.css';
 import Hero from '../components/Hero/index.js';
 
 export default function Home() {
-if (typeof window !== undefined) {setTimeout(() => {
-  window.location.replace('./docs/intro');
-}, 2000);};
+  useEffect(() => {
+    setTimeout(() => {window.location.replace('./docs/intro');}, 2000)
+  });
 
 return(
   <layout style={{margin: 'auto'}}>
